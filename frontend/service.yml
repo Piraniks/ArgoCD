@@ -13,7 +13,7 @@ spec:
     targetPort: 5000
     nodePort: 30080
   selector:
-    app: frontend-service
+    app: frontend
   type: NodePort
 status:
   loadBalancer: {}
